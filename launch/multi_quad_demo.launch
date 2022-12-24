@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="quad_1" pkg="genericquad" type="genericQuad" respawn="true" output="screen">
+    <!--maxAngle in degrees defines the maximum angle set in bf configurator-->
+      <param name="init_pose_x"   value="1.0"/>
+      <param name="init_pose_y"   value="1.0"/>
+      <param name="init_pose_z"   value="0.0"/>
+  </node>
+  <node name="quad_2" pkg="genericquad" type="genericQuad" respawn="true" output="screen">
+    <!--maxAngle in degrees defines the maximum angle set in bf configurator-->
+      <param name="init_pose_x"   value="2.0"/>
+      <param name="init_pose_y"   value="2.0"/>
+      <param name="init_pose_z"   value="0.0"/>
+  </node>
+</launch>

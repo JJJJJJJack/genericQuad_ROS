@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>genericquad</name>
+  <version>1.0.0</version>
+  <description>TODO</description>
+  <maintainer email="xiang_he@buaa.edu.cn">JackHe</maintainer>
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+</package>
+<!-- Generated 24-Dec-2022 10:32:42 -->
+<!-- Copyright 2019-2021 The MathWorks, Inc. -->
